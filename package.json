@@ -11,6 +11,8 @@
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
+    "@vueuse/core": "^10.6.1",
+    "@vueuse/nuxt": "^10.6.1",
     "autoprefixer": "^10.4.16",
     "nuxt": "^3.8.1",
     "postcss": "^8.4.31",
@@ -20,6 +22,8 @@
   },
   "dependencies": {
     "@pinia/nuxt": "^0.5.1",
+    "@studio-freight/lenis": "^1.0.28",
+    "aos": "^2.3.4",
     "pinia": "^2.1.7"
   }
 }

@@ -1,12 +1,11 @@
 <script lang="ts" setup>
-import Nav from '@/components/Nav.vue';
-
+import Header from '@/components/Nav.vue';
 
 </script>
 
 <template>
   <div>
-    <Nav/>
+    <Header/>
     <slot/>
   </div>
 </template>

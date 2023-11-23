@@ -12,5 +12,12 @@ export const useUserThemeStore = defineStore("userTheme", () => {
         theme.value = user_theme;
     }
 
+
+    watch(theme, () => {
+        if (theme.value !== undefined) {
+            localStorage.setItem('user_theme', theme.value);
+        }
+    })
+
     return {theme, setTheme}
 })
